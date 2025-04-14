@@ -94,14 +94,15 @@ section {
 .profile-section {
     text-align: center;
     grid-column: 1 / -1;
-    background: linear-gradient(135deg, var(--couleur-primaire), var(--couleur-secondaire));
-    color: var(--fond-carte);
+    color: var(--couleur-texte);
     padding: var(--espacement-md);
+    background: none;
+    box-shadow: none;
 }
 
 .profile-section h1,
 .profile-section .title {
-    color: var(--fond-carte);
+    color: var(--couleur-texte);
 }
 
 .profile-image {
