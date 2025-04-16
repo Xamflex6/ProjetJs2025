@@ -4,7 +4,7 @@
     --couleur-texte: #313B44;
     --couleur-fond: #AAA8AD;
     --fond-carte: #fff;
-    --couleur-accent: #FF4C4C; /* Amélioration contraste rouge */
+    --couleur-accent: #FF4C4C; 
     --accent-fonce: #8B4944;
     --couleur-bordure: #606467;
     --couleur-ombre: rgba(28, 29, 34, 0.1);
@@ -14,13 +14,13 @@
     --espacement-md: 1rem;
     --espacement-lg: 1.5rem;
     --espacement-xl: 2rem;
-    --couleur-accent-print: #D10000; /* Rouge pétant pour print white mode */
+    --couleur-accent-print: #D10000;
 }
 
 [data-theme="dark"] {
-    --couleur-primaire: #FF4C4C; /* Rouge plus lisible */
-    --couleur-secondaire: #FFA07A; /* Teinte claire pour secondaire */
-    --couleur-texte: #F0F0F0; /* Texte très lisible */
+    --couleur-primaire: #FF4C4C; 
+    --couleur-secondaire: #FFA07A; 
+    --couleur-texte: #F0F0F0; 
     --couleur-fond: #1C1D22;
     --fond-carte: #2C2F33;
     --couleur-bordure: #606467;
@@ -183,8 +183,8 @@ h3 {
 }
 
 .qualities-section li {
-    background: #FF4C4C; /* plus vif */
-    color: #FFFFFF; /* meilleur contraste */
+    background: #FF4C4C; 
+    color: #FFFFFF; 
     font-weight: bold;
     padding: var(--espacement-sm);
     border-radius: 15px;
