@@ -43,7 +43,7 @@ body {
     color: var(--couleur-texte);
     background-color: var(--couleur-fond);
     transition: all var(--duree-transition) ease;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .controls {

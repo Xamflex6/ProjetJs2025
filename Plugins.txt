@@ -1,0 +1,6 @@
+Fonctionnalités JavaScript intégrées :
+
+- Bouton d'activation du mode sombre (dark mode)
+- Bouton d'impression du CV
+- Défilement fluide entre les sections (anchor links)
+- Apparition animée des sections avec ScrollReveal
