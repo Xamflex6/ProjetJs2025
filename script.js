@@ -35,6 +35,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// Animation avec ScrollReveal
+ScrollReveal().reveal('section', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '30px',
+    easing: 'ease-in-out',
+    reset: false
+});
+
 // Animation d'apparition progressive via l'intersection observer
 const sections = document.querySelectorAll('section');
 const observerOptions = {
